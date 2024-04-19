@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Grix | Tailwind Clone of Bootstrap Grid System</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="tgx-container">
+    <h3 class="text-3xl font-bold mt-8">Tailwind Grix</h3>
+    <p class="text-xl">Tailwind Clone of Bootstrap Grid System</p>
+    <ul class="mt-4">
+      <li>Add <i>tgx-</i> prefix to the bootstrap class names.</li>
+      <li>Tailwind breakpoints <i>( sm, md, lg, xl, 2xl )</i></li>
+      <li>Use tailwind style. <i>( tgx-col sm:tgx-col-2 md:tgx-col-4 )</i></li>
+      <li>Set <i>{gapX, gapY}</i> parameters for horizontal and vertical gaps.</li>
+      <li>Bootstrap documentation can be used for more...</li>
+    </ul>
+  </div>
+  <div id="tgxdemo-stage" class="tgx-container text-center">
+    <div class="tgx-row">
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col">
+        <p class="text-slate-900 text-lg font-semibold mt-4">Cols</p>
+        <p class="text-slate-900">tgx-row-cols-auto, tgx-row-cols-1...6</p>
+      </div>
+    </div>
+    <div class="tgx-row tgx-row-cols-1 sm:tgx-row-cols-2 xl:tgx-row-cols-4">
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+      <div class="tgx-col"><span class="tgxdemo-col">col</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col">
+        <p class="text-slate-900 text-lg font-semibold mt-4">Column Sizes</p>
+        <p class="text-slate-900">tgx-col-auto, tgx-col-1...12</p>
+      </div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-auto"><span class="tgxdemo-col">col-auto</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1"><span class="tgxdemo-col">col-1</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-2"><span class="tgxdemo-col">col-2</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-3"><span class="tgxdemo-col">col-3</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-4"><span class="tgxdemo-col">col-4</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-5"><span class="tgxdemo-col">col-5</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-6"><span class="tgxdemo-col">col-6</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-7"><span class="tgxdemo-col">col-7</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-8"><span class="tgxdemo-col">col-8</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-9"><span class="tgxdemo-col">col-9</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-10"><span class="tgxdemo-col">col-10</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-11"><span class="tgxdemo-col">col-11</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-12"><span class="tgxdemo-col">col-12</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col">
+        <p class="text-slate-900 text-lg font-semibold mt-4">Responsive Sample</p>
+        <p class="text-slate-900">tgx-col sm:tgx-col-2 md:tgx-col-4 lg:tgx-col-6 xl:tgx-col-8</p>
+      </div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col sm:tgx-col-2 md:tgx-col-4 lg:tgx-col-6 xl:tgx-col-8"><span class="tgxdemo-col">col</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col">
+        <p class="text-slate-900 text-lg font-semibold mt-4">Offset Sample</p>
+        <p class="text-slate-900">tgx-offset-1...11</p>
+      </div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-1"><span class="tgxdemo-col">offset-1</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-2"><span class="tgxdemo-col">offset-2</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-3"><span class="tgxdemo-col">offset-3</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-4"><span class="tgxdemo-col">offset-4</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-5"><span class="tgxdemo-col">offset-5</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-6"><span class="tgxdemo-col">offset-6</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-7"><span class="tgxdemo-col">offset-7</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-8"><span class="tgxdemo-col">offset-8</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-9"><span class="tgxdemo-col">offset-9</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-10"><span class="tgxdemo-col">offset-10</span></div>
+    </div>
+    <div class="tgx-row">
+      <div class="tgx-col-1 tgx-offset-11"><span class="tgxdemo-col">offset-11</span></div>
+    </div>
+  </div>
+</body>
+</html>
