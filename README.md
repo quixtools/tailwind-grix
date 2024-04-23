@@ -26,6 +26,13 @@ plugins: [
 - Use tailwind style for responsiveness. ( tgx-col sm:tgx-col-2 md:tgx-col-4 )
 - [Bootstrap documentation](https://getbootstrap.com/) can be used for more...
 
+##### Prefix sample
+container --> tgx-container
+container-fluid --> tgx-container-fluid
+row --> tgx-row
+col --> tgx-col
+...
+
 
 
 ## License
